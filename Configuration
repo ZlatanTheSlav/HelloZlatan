@@ -1,6 +1,5 @@
 acl "trusted" {
         localhost;
-        192.168.1.3;
         };
 options {
         listen-on port 53 { any; };
