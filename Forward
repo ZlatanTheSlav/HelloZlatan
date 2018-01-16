@@ -1,3 +1,5 @@
+PATH - /var/named/ictmi.test.zone 
+
 $ORIGIN ictmi.test.
 
 $TTL 1H
@@ -13,15 +15,9 @@ ictmi.test.     IN NS           ns1.ictmi.test.
 ictmi.test.     IN NS           ns2.ictmi.test.
 ictmi.test.     IN NS           ictmi.test
 
-ictmi.test      IN A            192.168.25.128
-ns1             IN A            192.168.25.128
-ns2             IN A            192.168.25.128
+ictmi.test      IN A            192.168.1.10
+ns1             IN A            192.168.1.10
+ns2             IN A            192.168.1.10
 
-@               IN A            192.168.25.128
-www             IN A            192.168.25.128
-
-ictmi.test.     IN MX           10 smtp.ictmi.test.
-ictmi.test.     IN MX           20 mail.ictmi.test.
-
-smtp            IN A            192.168.25.128
-mail            IN A            192.168.25.128
+@               IN A            192.168.1.10
+www             IN A            192.168.1.10
