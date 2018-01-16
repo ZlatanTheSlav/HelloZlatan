@@ -1,3 +1,5 @@
+PATH - /etc/named.conf
+
 acl "trusted" {
         localhost;
         };
